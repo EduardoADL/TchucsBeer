@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+.menu{
+    background:black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+.textoption{
+    color: white;
+    font-size: 32px;
+    font-family: 'Lacquer';
+    text-decoration: none;
+}
+.name{
+    color: #FFD521;
+    font-size: 36px;
+    font-family: 'kanit';
+    font-weight: bold;
+}
+
+.opcoes{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.logo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
