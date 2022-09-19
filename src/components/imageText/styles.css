@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap%27');
+
+.content-imagetext{
+    color: white;
+    padding: 50px;
+    font-family: 'Lacquer';
+}
+
+.content-table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-table h4{
+    color: #F3555F;
+}
