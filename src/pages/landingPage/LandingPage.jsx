@@ -12,6 +12,12 @@ import girl from '../../assets/imgs/girl.jpg';
 import './LandingPage.css';
 
 
+import bebidas from "../../assets/data/bebidas.json"
+import energeticos from "../../assets/data/energeticos.json"
+import narguile from "../../assets/data/narguile.json"
+import carvao from "../../assets/data/carvao.json"
+
+
 const LandingPage = () => {
 
     return (
@@ -45,11 +51,20 @@ const LandingPage = () => {
             </div>
             <div id='bebidas' className="background">
                 <img className="imagemCenter" src={beer} alt="beer" />
-                <ImageText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac tortor dignissim convallis aenean et tortor at risus." title="Bebidas" subtitle1="Destilado" subtitle2="Combo" />
+                <ImageText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac tortor dignissim convallis aenean et tortor at risus." 
+                title="Bebidas" 
+                firstOption={bebidas}
+                secondOption={energeticos}
+                subtitle1="Destilado" 
+                subtitle2="Combo" />
             </div>
-            <div id="narguile" className="background">
-                <img className="imagemCenter2" src={girl} alt="girl" />
-                <ImageText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac tortor dignissim convallis aenean et tortor at risus." title="Bebidas" subtitle1="Essência" subtitle2="Carvão" />
+            <div className="background">
+                <ImageText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac tortor dignissim convallis aenean et tortor at risus." 
+                title="Bebidas"
+                firstOption={narguile}
+                secondOption={carvao}
+                subtitle1="Essência" 
+                subtitle2="Carvão" />
                 <img className="imagemCenter" src={girl} alt="girl" />
             </div>
             <div className="gallery-wrapper">

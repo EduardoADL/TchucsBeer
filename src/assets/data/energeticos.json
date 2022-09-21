@@ -1,0 +1,34 @@
+[
+    {
+        "nome": "Redbull",
+        "valor": "10,00"
+    },
+    {
+        "nome": "Red rohs 2L",
+        "valor": "20,00"
+    },
+    {
+        "nome": "Insano 1L",
+        "valor": "15,49"
+    },
+    {
+        "nome": "Monster",
+        "valor": "10,00"
+    },
+    {
+        "nome": "Ziggi",
+        "valor": "06,00"
+    },
+    {
+        "nome":"Refrigerante Coca Cola 2L",
+        "valor": "10,00"
+    },
+    {
+        "nome":"Refrigerante Coca Cola Lata",
+        "valor": "04,00"
+    },
+    {
+        "nome":"Refrigerantes Lata (Fanta, Guarana, etc)",
+        "valor": "04,00"
+    }
+]
