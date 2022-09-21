@@ -51,16 +51,17 @@ const LandingPage = () => {
             </div>
             <div id='bebidas' className="background">
                 <img className="imagemCenter" src={beer} alt="beer" />
-                <ImageText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac tortor dignissim convallis aenean et tortor at risus." 
+                <ImageText text="É claro que, como todo bom brasileiro, você também não abre mão de uma boa geladinha ao fim do dia. Cá entre nós, o happy hour é sempre o momento mais esperado, concorda comigo?" 
                 title="Bebidas" 
                 firstOption={bebidas}
                 secondOption={energeticos}
                 subtitle1="Destilado" 
                 subtitle2="Combo" />
             </div>
-            <div className="background">
-                <ImageText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac tortor dignissim convallis aenean et tortor at risus." 
-                title="Bebidas"
+            <div className="background" id="narguile">
+                <img className="imagemCenter2" src={girl} alt="girl" />
+                <ImageText text="Se há fumaça suficiente, é o que me importa. Sinal de que ainda tenho tempo de cultivar meu hobby, meu narguile e a minha paz." 
+                title="Narguilé e Outros"
                 firstOption={narguile}
                 secondOption={carvao}
                 subtitle1="Essência" 

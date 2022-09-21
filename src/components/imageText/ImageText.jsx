@@ -3,9 +3,9 @@ import React from 'react';
 
 import './styles.css'
 
-const ImageText = ({text, title, subtitle1, subtitle2, firstOption, secondOption}) => {
+const ImageText = ({ text, title, subtitle1, subtitle2, firstOption, secondOption }) => {
 
-    return(
+    return (
         <div className="content-imagetext">
             <div>
                 <h3>{title}</h3>
@@ -17,16 +17,16 @@ const ImageText = ({text, title, subtitle1, subtitle2, firstOption, secondOption
                             <div className="values">
                                 <p>{a.nome}</p>
                                 <p className="real">.  R$:{a.valor}</p>
-                            </div>         
+                            </div>
                         )}
                     </div>
                     <div>
                         <h4>{subtitle2}</h4>
                         {secondOption.map((a) =>
                             <div className="values">
-                            <p>{a.nome}</p>
-                            <p className="real">.  R$:{a.valor}</p>
-                        </div>
+                                <p>{a.nome}</p>
+                                <p className="real">.  R$:{a.valor}</p>
+                            </div>
                         )}
                     </div>
                 </div>
