@@ -1,18 +1,38 @@
 [
     {
-        "nome": "vodka",
-        "valor": "20"
+        "nome": "Vinho Reservado",
+        "valor": "13,00"
     },
     {
-        "nome": "vodka",
-        "valor": "20"
+        "nome": "Vodka",
+        "valor": "15,00"
     },
     {
-        "nome": "vodka",
-        "valor": "20"
+        "nome": "Corote",
+        "valor": "05,00"
     },
     {
-        "nome": "vodka",
-        "valor": "20"
+        "nome": "Skol Lata 269ml",
+        "valor": "40,00caixa / 3,00unid"
+    },
+    {
+        "nome": "Brahma Lata 269ml",
+        "valor": "40,00caixa / 3,00unid"
+    },
+    {
+        "nome": "Amstel Lata 269ml",
+        "valor": "33,00caixa / 3,00unid"
+    },
+    {
+        "nome": "Heineken Long Neck",
+        "valor": "42,00caixa / 8,00unid"
+    },
+    {
+        "nome": "Duplo Malte lata",
+        "valor": "33,00caixa / 4,50unid"
+    },
+    {
+        "nome": "Sol long neck",
+        "valor": "38,00caixa / 7,00unid"
     }
 ]

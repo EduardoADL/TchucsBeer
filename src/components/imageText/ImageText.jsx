@@ -1,12 +1,9 @@
 import React from 'react';
 
-import bebidas from "../../assets/data/bebidas.json"
 
 import './styles.css'
 
-const ImageText = ({text, title, subtitle1, subtitle2}) => {
-
-    console.log(bebidas)
+const ImageText = ({text, title, subtitle1, subtitle2, firstOption, secondOption}) => {
 
     return(
         <div className="content-imagetext">
@@ -14,16 +11,22 @@ const ImageText = ({text, title, subtitle1, subtitle2}) => {
                 <h3>{title}</h3>
                 <p>{text}</p>
                 <div className="content-table">
-                    <div>
+                    <div className="content-row">
                         <h4>{subtitle1}</h4>
-                        {bebidas.map((a) =>
-                            <p>{a.nome}</p>
+                        {firstOption.map((a) =>
+                            <div className="values">
+                                <p>{a.nome}</p>
+                                <p className="real">.  R$:{a.valor}</p>
+                            </div>         
                         )}
                     </div>
                     <div>
                         <h4>{subtitle2}</h4>
-                        {bebidas.map((a) =>
+                        {secondOption.map((a) =>
+                            <div className="values">
                             <p>{a.nome}</p>
+                            <p className="real">.  R$:{a.valor}</p>
+                        </div>
                         )}
                     </div>
                 </div>

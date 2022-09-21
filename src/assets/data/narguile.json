@@ -1,18 +1,26 @@
 [
     {
-        "nome": "zommo",
-        "valor": "20"
+        "nome": "Ziggy",
+        "valor": "10,00"
     },
     {
-        "nome": "zommo",
-        "valor": "20"
+        "nome": "Ônix",
+        "valor": "12,00"
     },
     {
-        "nome": "zommo",
-        "valor": "20"
+        "nome": "Pimp",
+        "valor": "12,00"
     },
     {
-        "nome": "zommo",
-        "valor": "20"
+        "nome": "Sense",
+        "valor": "12,00"
+    },
+    {
+        "nome": "Magic",
+        "valor": "12,00"
+    },
+    {
+        "nome": "Zommo",
+        "valor": "10,00"
     }
 ]
