@@ -21,28 +21,28 @@ import carvao from "../../assets/data/carvao.json"
 const LandingPage = () => {
 
     return (
-        <div className="landing-page">
+        <div id="home" className="landing-page">
             <nav class=" menu navbar navbar-expand-lg bg-black">
                 <div class="container-fluid">
                     <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                    <div class="collapse navbar-collapse menuOptions" id="navbarNav">
+                        <ul class="navbar-nav optionsMenu">
                             <li class="nav-item">
-                                <a class="nav-link color" aria-current="page" href="#">Bebidas</a>
+                                <a class="nav-link color" aria-current="page" href="#bebidas">Bebidas</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link color" href="#">Narquile</a>
+                                <a class="nav-link color" href="#narguile">Narguilé</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link color" href="#">Contato</a>
+                                <a class="nav-link color" href="#contato">Contato</a>
                             </li>
                         </ul>
                     </div>
                     <div>
                         <img className="homer" src={logo} alt="logo"></img>
-                        <a class="navbar-brand color" href="#">Thuc's Beer</a>
+                        <a class="navbar-brand colorTitle" href="#home">Thuc's Beer</a>
                     </div>
                 </div>
             </nav>
@@ -75,7 +75,7 @@ const LandingPage = () => {
                     }
                 </div>
             </div>
-            <div className="footer">
+            <div id="contato" className="footer">
                 <div className="section_map">
                     <p className="text_footer">LOCALIZAÇÃO</p>
                     <p className="subtitle_map">Avenida República Argentina, 7455</p>

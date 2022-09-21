@@ -11,8 +11,22 @@
     top:0;
 }
 
+.menuOptions{
+    margin-left: 5%;
+    
+}
+.optionsMenu li{
+    margin-right: 30%;
+}
+
 .color{
     color: white;
+    font-family: 'Lacquer';
+}
+
+.colorTitle{
+    color: #FFD521;
+    font-family: 'kanit';
 }
 
 .textoption{
@@ -60,6 +74,11 @@
     width:50%;
     height:100%;
     object-fit: cover;
+    display: block;
+}
+
+.imagemCenter2{
+    display: none;
 }
 
 .background{
@@ -114,13 +133,13 @@ html {
     align-items: flex-start;
 }
 .map{
-    width: 500px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     border-radius: 5px;
 }
 .logo_footer{
-    width: 300px;
-    height: 280px;
+    width: 70%;
+    height: 85%;
 }
 .text_footer{
     color: white;
@@ -152,5 +171,22 @@ html {
     .item{
         width:200px;
         height:181px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .background{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagemCenter{
+        display: none;
+    }
+    .imagemCenter2{
+        display: block;
+    }
+    .gallery-wrapper{
+        display: flex;
     }
 }
